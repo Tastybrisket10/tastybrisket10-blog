@@ -1,0 +1,7 @@
+# netlify.toml – tells Netlify which Hugo version to install
+[build]
+  command = "hugo"          # the command Netlify will run
+  publish = "public"        # the folder Hugo creates that should be served
+
+[build.environment]
+  HUGO_VERSION = "0.124.0"  # <-- pick a Hugo version you have locally
