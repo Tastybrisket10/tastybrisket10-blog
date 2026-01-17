@@ -1,0 +1,6 @@
+# Ignore the generated site
+/public/
+
+# Hugo cache files (optional but tidy)
+resources/
+cache/

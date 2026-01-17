@@ -1,0 +1,15 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Tastybrisket10 Blog"
+theme = "hugo-classic"
+
+[params]
+  showAuthor = true
+  darkMode   = true
+  # Light‑mode colours (you can keep the defaults)
+backgroundColor = "#f5f5f5"   # light background
+accent          = "#006264"   # navbar/footer colour
+
+# Night‑mode colours – these are read when the body has the .dark-mode class
+backgroundColorNight = "#111111"   # dark background for night mode
+accentNight          = "#00aaff"   # optional – colour of navbar/footer in night mode
